@@ -11,4 +11,4 @@ RUN git clone https://github.com/tsibley/FastTree.git && \
 	cd FastTree/ && \
 	make
 
-ENV PATH=${PATH}:/usr/src/FastTree/bin
+ENV PATH=${PATH}:/usr/src/FastTree
